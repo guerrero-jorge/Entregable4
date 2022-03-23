@@ -1,0 +1,177 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+  height: 100vh;
+  width: 100vw;
+  font-size: calc(0.4em + 0.8vw);
+  
+  background-color: rgb(158, 240, 202);
+}
+
+
+.App {
+  text-align: center;
+  
+  
+  background-color: rgb(158, 240, 202);
+
+}
+
+
+.formContainer{
+
+background-color: aliceblue;
+  
+ padding-top: 50px;
+}
+
+.formContainer p{
+
+    /*font-size: 18px;*/
+    font-size: calc(0.4em + 1 vw);
+    font-weight: bold;
+}
+input{
+
+    background-color: rgba(207, 201, 201, 0.733);
+    border: none;
+}
+
+.containerUserList{
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+button.upload{
+
+    width: 40%;
+    border: none;
+    background-color: rgb(111, 175, 134);
+    
+    color: beige;
+    border-radius: 15px;
+    height: 25px;
+    margin: 20px 0px;
+    
+    
+}
+.icons button{
+     
+    margin-left: 10px;
+    background-color: transparent;
+    border:none;
+    
+}
+.containerInfo{
+  background-color:aliceblue;
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+  margin-top: 15px;
+
+  
+  border-radius: 15px;
+ 
+  text-align: left;
+  padding: 15px 40px;
+
+}
+.formContainer input{
+
+  margin-top: 10px;
+  font-size: calc(0.45em + 0.7vw);
+  padding: 6px;
+  border-radius: 10px;
+  height: 30px;
+  width: 72%;
+
+}
+.input-CompletedName input{
+
+    width: 35%;
+    font-size: calc(0.45em + 0.7vw);
+    margin-right: 3px;
+}
+
+.input-CompletedName i{
+
+  margin-left: 9px;
+
+} 
+
+.containerInfo p{
+
+  font-size: calc(0.4em + 0.75vw)
+
+  
+}
+
+.containerInfo button i{
+
+  font-size: calc(0.4em + 0.8vw);
+}
+
+
+.containerInfo p i{
+
+  
+  margin-right: 6px;
+}
+
+@media (min-width:450px){
+
+  .App{
+
+    display: flex;
+    height: 100vh;
+
+
+  }
+
+  .formContainer{
+
+    background-color: aliceblue;
+      
+     padding-top: 50px;
+     width: 40%;
+    }
+
+  
+    .containerInfo{
+
+      display: flex;
+      justify-content: space-between;
+
+        width:60%
+
+    }
+
+    .containerUserList{
+
+        margin-top: 60px;
+  }
+
+  .input-CompletedName input{
+
+    font-size: calc(0.4em + 0.75vw);
+
+    width: 35%;
+  
+    margin-right: 5px;
+  }
+
+  .icons button{
+     
+    margin-left: 10px;
+    background-color: transparent;
+    border:none;
+    
+}
+}
